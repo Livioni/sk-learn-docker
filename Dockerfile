@@ -8,4 +8,6 @@ ADD . .
 
 RUN pip install -r /docker_demo/requirements.txt
 
+EXPOSE 8009
+
 CMD ["python", "main.py"]
