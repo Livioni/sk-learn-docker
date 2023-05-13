@@ -8,4 +8,4 @@ ADD . .
 
 RUN pip install -r /docker_demo/requirements.txt
 
-CMD ["python", "app.py"]
+CMD ["python", "main.py"]
